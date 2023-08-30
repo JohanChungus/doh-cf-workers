@@ -38,6 +38,6 @@ async function handleRequest(request) {
             }
         });
     } else {
-        return new Response("<h1>@Vano_Ganzzz-PrivateDNS</h1> all traffic will be logged", {status: 200 })
+        return new Response("", {status: 200 })
     }
 }
