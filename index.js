@@ -38,6 +38,6 @@ async function handleRequest(request) {
             }
         });
     } else {
-        return new Response("", {status: 200 })
+        return new Response("", {status: 200})
     }
 }
